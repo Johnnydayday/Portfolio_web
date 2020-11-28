@@ -50,8 +50,16 @@
         <div id="PX" style=" background-image: url('mpsb/2.png'); width:100%; height: 500px; background-size: cover;  background-repeat: no-repeat; background-position: 0 -250;" class="parallaxImg"></div>
        <script src="../Style/Parallax.js"></script>
         <br>
-            <img src="mpsb/3.png" height= 200px alt="">
-        <i>Typography Choices</i>
+           <div class="carousel" style="background-image: url(mpsb/3.png); height:200px; background-size: cover; background-repeat: no-repeat;"></div>
+            <script>
+                $(document).ready(function(){
+                    $(window).scroll(function(){
+                        $offset = $("body").scrollTop()
+                        $(".carousel").animate({'background-position-x':80+ -$offset*0.1},10)
+                    })
+                })
+            </script>
+           <i>Typography Choices</i>
         <br>
         <h4>DESIGN</h4>
         <p>There is a quote that inspired me is “Cities, like dreams, are made of desires and fears, even if the thread of their discourse is secret, their rules are absurd, their perspectives deceitful, and everything conceals something else (Calvino 50).” From the quote, it broadens my vision of thinking the Cities that are rather boundary-less. The theme typography was selected from Didot, Charter, Optima, and Georgia. In terms of typography choice, I chose Georgia in the end, I liked how the type face has a fluid transition from its thick stroke and thin stroke. Additionally, the counter of letters’ is very wild that makes letters have enough space to breath in paragraphs; also, the contrast showing between strokes is elegant and beautiful.</p>
