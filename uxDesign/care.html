@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care: Animal Adoption Service</title>
+    <link rel="stylesheet" href="../Style/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav>
+        <h5>Johnny Liu</h5>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="width: 100px; margin-right: 20px;">
+                <a  style=" color:black; text-decoration: none;" href="../index.html"><h1>Portfolio</h1></a>
+            </li>
+            <li style="width: 100px;">
+                <a style="color: gray; text-decoration: none;" href="../resume.html">Resume</a> 
+            </li>
+        </ul>
+    </nav>
+    <img src="care/0.jpg" width="100%" alt="">
+    <i style="margin-left: 18;">Illustration created with Procreate</i>
+    <div style="padding-bottom: 0;">
+        <h5>App Design</h>
+            <h1>Care: Animal Adoption Service</h1>
+            <i style="margin-left: 0;">"Are Users The Only Ones That I am Designing For?"</i>
+            <h5>Time: 2019,10</h5>
+            <p>There are insufficient channels for those who want pets but struggling with how to find the right ones that fit their lifestyle, family settings , etc. The problem also applies to animals who lives in the shelters that also have the difficulty to find a suitable home.</p>
+    </div>
+
+    <div class="designHighlight" style="background-color: orange;">
+        <h4 style="margin-bottom: 0;">Highlights</h4>
+        <ul style="list-style-type: none; padding: 0;">
+            <li> ⭐️ Personalization with Protecting Users Privacy in Mind</li>
+            <li>⭐️ Encouraging Rational Decision Making Through Design</li>
+            <li>⭐️ Explore more Efficiant Network for Better Finacial Images</li>
+        </ul>
+    </div>
+    
+    <div>
+        <h4>DESIGN GOAL</h4>
+        <p>Designing an Animal Adoption Service that is personal, which brings high performance in personalization and helps users to find their right pets; that is supportive, which should become a community where not only all kinds of animal shelters are connected but also they are connected with potential adapters; that conveys the ideas of “responsibility,” “Rational decision making.”</p>
+    </div>
+    <img src="care/1.png" width="100%" alt="">
+    <i>Sketch on notebook</i>
+
+
+    <div>
+        <h4>UNDERSTANDING USERS</h4>
+        <i>User Research Methods: Literature Review, Online Survey and In-person interviews.</i>
+        <p>
+            🙆🏻‍♂️ Adopters don’t know the 🐶 animals’ personality.
+            <br>
+            😟 There is insufficient 📱 network about animal adoption.
+            <br>
+            📝 Adoption process is 😣 long and vary by organizations.
+            <br>
+            😑 There are various ways of having a animal, except buying from 🤝 breeders, most of the people acquired their animal from the stray or from 👋 friends’ house.
+            <br>
+            👀 People were looking for a specific 🐩 breed.
+            <br>
+            🙃 People may have unconscious bias toward sheltered 😿 animals.</p>
+    </div>
+
+    <div class="carousel" style="padding: 0; overflow-x: scroll;">
+        <img src="care/4.png" height="300px" alt="">
+    </div>
+    <i>Design Mockups. Scroll horizontally to view more.</i>
+    <div>
+        <h4>DESIGN PROCESS</h4>
+        <p>It begins with intensive pencil sketch as to create more design alternatives and discover design possibilities. Then, it followed with simple digital wire-frames by using Sketch the design tool. Finally, High Fidelity screens presents the final outcomes of the design ideas, concepts and experiences.</p>
+    </div>
+    <section>
+        <div class="PXH" style=" padding: 0; width:100%; height: 200px; background-image: url(care/5.png); background-size:cover; background-repeat: no-repeat;"></div>
+        <script>
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    $offset = $("body").scrollTop()
+                    $(".PXH").animate({'background-position-x':100+ -$offset*0.05},10)
+                })
+            })
+        </script>
+        <br>
+        <i>Wireframes</i>
+    </section>
+    <div class="carousel" style="padding: 0; overflow-x: scroll;">
+        <img src="care/6.png" height="400px" alt="">
+    </div>
+    <i>Design Mockups. Scroll horizontally to view more.</i>
+    
+    <div>
+        <h4>PERSONALIZATION DESIGN</h4>
+        <p>Personalization begins with user onboarding, and there are five screens for service initialization. Throughout the on-boarding process, the user will be asking about his/her name, basic contact information, experiences with animal adoptions, specific goals, interests. The on-boarding is about initializing the service to serve users’ interests better, and to create personalized contents in the app. Each of the steps always provided users with a “Back” button (on the left top) and an exit control (the “Skip” and “I don’t mind all”), this meant to provide users with a freedom of control deliver a sense of safeness. Users can always undo, redo, or skip any process.</p>
+    </div>
+
+    <section style="width: fit-content; margin: 0 auto;">
+        <img src="care/7.png" height="300px"  style="opacity: 0;" alt="">
+        <img src="care/8.png" height="300px" style="opacity: 0;" alt="">
+        <script>
+            $(document).ready(function() {
+                $(window).scroll(function(){
+                    console.log($("body").scrollTop())
+                  if ($("body").scrollTop() > 3000 ){
+                    var i = 0
+                    $("img").each(function(){
+                    i += 50
+                    $(this).delay(i).animate({'opacity':'1'},500)
+                })
+                  };
+                });
+            });
+        </script>
+    </section>
+
+    
+    <i>Notification Deisgn to Boost Task Efficiancy</i>
+    <div>
+        <h4>ENCOURAGING RATIONAL DECISION MAKING PROCESS</h4>
+        <p>Personalization is about being personal and specific, and I believe it is also about having more versatility and flexibility. Now, with machine learning, personalization experience could be designed even more useful. What if the user has been using the app for a while, what if there is an ongoing adoption process of the user? Therefore, the design is very dynamic. When there is an undergoing process of adoption, the “Hi There” section will be moved lower in another part of UI, making sure the topper UI can always help the user reach his/her most prominent tasks. If there is an
+            
+            undergoing adoption process, A “Dialogue Card” will be popping up to give users an instant shortcut to resume the progress they have left last time.
+            
+            Perhaps, the most challenging part of this assignment was how to design an animal profile page. Animal adopters has so many concerns and needs regardless of their aware or not. In general, adopters may want to know the basic information about an animal such as its name, kinds, gender, age, color, size, disability, special needs, location, etc. But most importantly, the personality of an animal. As
+            
+            research tells, this part of design might be the most critical to adopters to make a decision of whether they want to have a further touch with the animal, how to design that make sure people are being a responsible, how can the app assists users act when users apply for adoptions, a guided process will be presented to guide users to complete an adoption process. This process is also designed for encouraging users to be patient and mindful. It uses supportive phrases as well as given a high level of user control, similar to the on-boarding experience; users can always undo an action or reserve their
+            
+            progress. When it is done, just thinking the very nature of animal adoption, everyone’s contribution matters, therefore, a “thank you note” will be given as either a motivation or rewarding design element.</p>
+    </div>
+    
+    <div class="theEnd">
+        <h2 style="margin:0;">The end.</h2>
+    </div>
+
+    <div class="next">
+        <img 155); src="wp/0.png" height="60px" alt="bookTheme">
+        <a href="bookdesign.html"><h3 style="color: black; margin-top: 5px; margin-bottom: 0px;">Weather Plus</h3></a>
+        <br>
+        <a style="font-size: 14pt;font-family: 'Caveat', cursive;" href="wp.html">Learn More ></a>
+</div>
+
+
+
+<footer>
+
+    <p>©2020 Johnny Liu, All rights reserved</p>
+    <p><img style="display: inline-block; vertical-align:middle;" src="../Assets/mail.png" width="14px" alt="emailIcon"> johnnyliu.work@gmail.com</p>
+    <p><img style="display: inline-block; vertical-align:middle;" src="../Assets/linkedIn.png" width="14px" alt="linkedInIcon"> <a href="https://www.linkedin.com/in/johnnyliuxujun/">Johnny Liu</a></p>
+    <br>
+    <p>About this website, this website is coded by Johnny as his project for practicing HTML, CSS and JS.</p>
+</footer>
+</body>
+</html>

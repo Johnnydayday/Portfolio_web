@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio by Johnny Liu</title>
+    <link rel="stylesheet" href="Style/common.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <h5>Johnny Liu</h5>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="width: 100px; margin-right: 20px;">
+                <a  style=" color:black; text-decoration: none;" href="index.html"><h1>Portfolio</h1></a>
+            </li>
+            <li style="width: 100px;">
+                <a style="color: gray; text-decoration: none;" href="resume.html">Resume</a> 
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="information" style=" text-align: center; padding-top: 0; color: black; opacity: 0;">
+        <ul style="padding: 0; margin: 0; list-style: none;">
+            <li>
+                <img src="Assets/profile.jpg" width="100px" alt="">
+                <h4 style="margin-top: 10px; margin-bottom: 0; vertical-align: bottom; ">Johnny Liu</h4> 
+            </li>
+
+            <li>
+                <h5 style="margin: 0;">Yonsei Univeristy </h5> 
+            </li>
+
+            <li>
+                <i style="font-style: normal; color: black;">Information and Interaction Design</i>
+                <i style="margin: 0; color:gray;">Seoul, Korea</i> 
+            </li>
+
+            <li>
+                <p style="color:black">
+                    Johnny majors in information and Interaction design. He has obtained a firm grounding in graphic design and user experience research (HCI Direction) from his education in Yonsei University. For his career interests, he is interested the convergence of design and technology, becasue he has a strong passion for techno-art. Johnny is highly equiped and well-trained with knowledges in products & services strategy, ux design, marketing and branding.
+                </p>
+            </li>
+            <li>
+                <a class="resume" style="opacity: 0; color: black; text-decoration: underline; font-size: 10pt; " target="_blank" href="https://drive.google.com/file/d/1zd0o9nwElJOUjzckKo7d9bllXL_ZKfLd/view?usp=sharing">Download Resume ></a>
+            </li>
+            <li> <a class="allproj" style="opacity: 0; color: black; text-decoration: underline; font-size: 10pt; " href="visualDesign/mpsb.html">Start Browsing All Projects ></a></li>
+        </ul>
+    </div>   
+
+    <script>
+        $(document).ready(function() {
+            $(".information").animate({'opacity':'1'},500)
+            $(".p1").delay(100).animate({'opacity':'1'},500)
+            $(".p2").delay(200).animate({'opacity':'1'},500)
+            $(".resume").delay(200).animate({'opacity':'1'},500)
+            $(".allproj").delay(400).animate({'opacity':'1'},500)
+        })
+    </script>
+
+    <div class="contents">
+        <section class="p1"  style="opacity: 0; text-align: center;">
+            <h2 style="  margin-top: 0;font-family: 'Rock Salt', cursive;">Visual Design</h2>
+            <ul style="padding: 0; list-style: none;">
+                <li>
+                    <a href="visualDesign/mpsb.html">Master Photograph Story Board</a>
+                </li>
+
+                <li>
+                   <a href="visualDesign/tyography.html">Typography and Name Logo</a>
+                </li>
+
+                <li>
+                    <a href="visualDesign/bookdesign.html">Book Design “Brave New World”</a>
+                 </li>
+
+
+                 <li>
+                    <a href="visualDesign/gct.html">Global Career Tour Yonsei University Magazine</a>
+                 </li>
+
+
+                 <li>
+                    <a href="visualDesign/calendar.html">Graphic Calendar Design</a>
+                 </li>
+
+                 <li>
+                    <a href="visualDesign/wanderer.html">Wanderer: Brand identity Design</a>
+                 </li>
+
+                 <li>
+                    <a href="">Happy Haptics: Motion Graphic</a>
+                 </li>
+
+            </ol>
+
+        </section>
+        <section class="p2" style="opacity: 0; text-align: center;">
+            <h2 style=" margin-top: 0; font-family: 'Rock Salt', cursive;"> UX Design</h2>
+            <ul style="padding: 0; list-style: none;">
+                <li>
+                <a href="uxDesign/care.html">Care: Animal Adoption Service Design</a>
+                </li>
+
+                <li>
+                   <a href="uxDesign/wp.html">WeatherPlus: Utility and Social Media</a>
+                </li>
+
+                <li>
+                    <a href="uxDesign/incoo.html">Incoo: Design For Greater Accessibility</a>
+                 </li>
+
+                 <li>
+                    <a href="">Research on Language Learning Apps</a>
+                 </li>
+                 <li>
+                     <a href="">Instagram with Focus Mode</a>
+                 </li>
+
+                 
+                 <li>
+                    <a href="">UX Research in IMDB by Social Computing </a>
+                 </li>
+
+            </ol>
+        </section>
+
+
+    </div>
+
+
+    <footer>
+
+        <p>©2020 Johnny Liu, All rights reserved</p>
+        <p><img style="display: inline-block; vertical-align:middle;" src="Assets/mail.png" width="14px" alt="emailIcon"> johnnyliu.work@gmail.com</p>
+        <p><img style="display: inline-block; vertical-align:middle;" src="Assets/linkedIn.png" width="14px" alt="linkedInIcon"> <a href="https://www.linkedin.com/in/johnnyliuxujun/">Johnny Liu</a></p>
+        <br>
+        <p>About this website, this website is coded by Johnny as his project for practicing HTML, CSS and JS.</p>
+    </footer>
+
+</body>
+</html>

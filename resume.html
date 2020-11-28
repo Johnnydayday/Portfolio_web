@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnny's Resume</title>
+    <link rel="stylesheet" href="Style/common.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body">
+    <nav>
+        <h5>Johnny Liu</h5>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="width: 100px; margin-right: 20px;">
+                <a  style=" color:black; text-decoration: none;" href="resume.html"><h1>Resume</h1></a>
+            </li>
+            <li style="width: 100px;">
+                <a style="color: gray; text-decoration: none;" href="index.html">Portfolio</a> 
+            </li>
+        </ul>
+    </nav>
+    
+    <div>
+        <h4 style="margin: 0;">Johnny Liu</h4>
+        <h5 style="margin: 0;">johnnyliu.work@gmail.com</h5>
+        <br>
+        <a style="color: black; text-decoration: underline; font-size: 10pt; " target="_blank" href="https://drive.google.com/file/d/1zd0o9nwElJOUjzckKo7d9bllXL_ZKfLd/view?usp=sharing">Download Resume ></a>
+    </div>
+
+
+<div  class="education" style="opacity: 0;">
+    <h2 style="color: gray; margin: 0;   font-family: 'Caveat', cursive;">Education</h2>
+    <img style="display: inline-block; vertical-align: middle;" src="Assets/yonseilogo.png" width=60px alt="">
+    <h3 style="display: inline-block; vertical-align: middle;">YONSEI UNIVERSITY <br> (2017-2021)</h3>
+    <h4 style="margin:0;">Seoul, South Korea</h4>
+    <p style="margin-top: 10;"">
+        College: Underwood International College
+        <br>
+        Degree: Bachelor of Science
+        <br>
+        Major: Information and Interactin Design
+        <br>
+        Graduation: 2021.3
+    </p>
+</div>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function(){
+            offset = $("body").scrollTop()
+            console.log(offset);
+            if (offset > 400) {
+            }
+        })
+        $(".education").delay(0).animate({'opacity':'1'},500); 
+        $(".skills").delay(100).animate({'opacity':'1'},500); 
+        $(".experiences").delay(200).animate({'opacity':'1'},500); 
+    })
+</script>
+
+<div class="skills" style="opacity: 0;">
+    <h2 style="color: gray; margin-top: 0;    font-family: 'Caveat', cursive;">Skills</h2>
+    <h4>Professional Skills</h4>
+    <p>UX Research, User Interview, Survey, Usability Test; UI Design, Wireframing, Prototyping; Design Referencing, Presentation, Communication, Leadership.</p>
+
+    <h4>Technical Skills</h4>
+    <p>
+        Adobe Creative Cloud: Photoshop, Illustrator, InDesign, XD, Premiere Pro, After Effects; Microsoft Office, Apple Keynote; Sketch App, Invision, Figma Framer Classic; HTML/ CSS, Python, Xcode SwiftUI (Enrty Level).
+    </p>
+    <img style="margin: 0 auto;" src="Assets/skills.png" width="400px" alt="">
+
+    <h4>Language Skills</h4>
+    <p>
+        English and Chinese Bilingual, 
+        Korean (Communication Level).
+    </p>
+
+</div>
+
+<div class="experiences" style="opacity:0">
+    <h2 style="color:gray; margin: 0; font-family: 'Caveat', cursive; ">Experiences and Activities</h2>
+    
+    <ul style="padding-left: 18px;">
+        <li>
+            <h3>MUNE.CO </h3>
+            <i>2018.1, Seoul, South Korea</i>
+            <h5>User Experience Research Intern</h5>
+            <p>
+                - Accomplished MUNE’s user research in the domestic market by connecting targeted customers.
+                <br>        
+                - Product design research for syringe disposal machine.
+            </p>
+        </li>
+        <li>
+            <h3>SK SUNNY PROGRAM</h3>
+            <i>2020.3 - 2020.6, Incehon, South Korea</i>
+            <h5>User Experience Designer</h5>
+            <p>
+                - Collaborated with KIMU Art Studio to develop new business model.
+                <br>
+                - Leadership in User Experience Design of Web Design.
+                <br>
+                - Received a certificate for contribution.
+            </p>
+        </li>
+
+        <li>
+            <h3>YONSEI UNIVERSITY GLOBAL CAREER TOUR</h3>
+            <i>2019.6, Tokyo, Japan</i>
+            <h5>Member, Editorial Designer</h5>
+            <p>
+                - Delegated as a member of UIC Yonsei University to visit companies such as Hitachi, TOTO, Tiktok (Japan), etc.
+                <br>
+                - Directed and Created the editorial design for school publication, the Global Career Tour 2019 magazine.
+            </p>
+        </li>
+
+        <li>
+            <h3>RAT RELAY GLOBAL COLLABORATION </h3>
+            <i>2018.11, Incheon, South Korea</i>
+            <h5>Member, UX Researcher</h5>
+            <p>
+                - Successfully completed topic research with teammates.
+                <br>
+                - Effectively established collaboration with design teams abroad.
+                <br>
+                - Received a certificate for contribution.
+            </p>
+        </li>
+
+        <li>
+            <h3>INCHEON MANSU BOY’S HIGH SCHOOL</h3>
+            <i>2017.9 - 2017.12, Incheon, South Korea</i>
+            <h5>English Language Coach, Voluntary Service</h5>
+            <p>
+                - Improved Students’ English communication ability.
+                <br>
+                - Supported students’ passion to study foreign languages.
+            </p>
+        </li>
+
+    </ul>
+
+    
+</div>
+
+<footer>
+
+    <p>©2020 Johnny Liu, All rights reserved</p>
+    <p><img style="display: inline-block; vertical-align:middle;" src="Assets/mail.png" width="14px" alt="emailIcon"> johnnyliu.work@gmail.com</p>
+    <p><img style="display: inline-block; vertical-align:middle;" src="Assets/linkedIn.png" width="14px" alt="linkedInIcon"> <a href="https://www.linkedin.com/in/johnnyliuxujun/">Johnny Liu</a></p>
+    
+</footer>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
