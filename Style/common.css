@@ -7,12 +7,13 @@ html{
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 730px) {
     .banner {
+    display: block;
     visibility: visible;
     width: 100%;
-    display: block;
-    background-color: rgb(211, 211, 211);
+    height: 50px;
+    background-color: rgb(226, 226, 226);
     background-position: center;
     }   
 
