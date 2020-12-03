@@ -26,15 +26,48 @@
         </ul>
     
     </nav>
+    
+    <div class="keyboard" style=" width: 100%; max-width: 400px; min-height: 600px; margin: 0 auto; position: relative; background-image: url(happy/3.GIF); background-size: contain;background-repeat: no-repeat; background-position: top;">
+        <img class="key" src="happy/w.png"  style="position: absolute; left: 50; top: 50px;" height="100px" alt="">
+        <img class="key" src="happy/o.png" style="position: absolute; right: 50;" height="100px" alt="">
+        <br>
+        <img class="key" src="happy/r.png"    style="position: absolute; left: 50; bottom: 200;" height="100px" alt="">
+        <img class="key" src="happy/k.png" style="position: absolute; right: 50; bottom:220;" height="100px" alt="">
+        
+        <img class="key" src="happy/4.png" style="position: absolute; right: 20; bottom:420; transform: rotateZ(-45deg);" height="100px" alt="">
+        <img class="key" src="happy/5.png" style="position: absolute; right: 150; bottom:120;" height="80px" alt="">
+        <img class="key" src="happy/6.png"  style="position: absolute; left: 50; top: 150px; transform: rotateZ(-35deg);" height="100px" alt="">
+        <img class="key" src="happy/7.png" style="position: absolute; left: 150; bottom: 220;transform: rotateZ(-45deg); " height="50px" alt="">
+        <img class="key" src="happy/0.png" style="display: block; margin: 130 auto 0 auto;"  height="100px" alt="">
+        
+        <style>
+            .key{
+                opacity: 0;
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+            var i = 10
+            $(".key").each(function(){
+                i += 200
+                $(this).delay(i).animate({'opacity':'1'}, 500)
 
-        <div>
-            <h1 style="font-size: 100pt; color: black; font-family: 'Caveat', cursive;">
-                Page 
-                Under 
-                Construction...
-            </h1>
-        </div>
+                                
+            $(window).scroll(function(){ 
+                $offset = $("body").scrollTop()
+                $('.keyboard').animate({'background-position-y':0 + $offset*0.3},10)
+                console.log(offset)
+                
+            })
+                
+        });
+            })
+        </script>
+    </div>
+    
 
+    
+     
 
 
 
