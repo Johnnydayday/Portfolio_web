@@ -1,7 +1,7 @@
 const Parallax = document.getElementById("PX");
 window.addEventListener("scroll", function(){
     let offset = window.pageYOffset;
-    Parallax.style.backgroundPositionY = -250 + offset*0.2 + "px";
+    Parallax.style.backgroundPositionY = -250 + offset*0.25 + "px";
 
 })
 
