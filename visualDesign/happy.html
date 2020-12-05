@@ -66,11 +66,24 @@
         <h5>Motion Graphic</h5>
         <h1 style="font-family: 'Courier New', Courier, monospace;">Happy Haptics</h1>
         <h5>Time: 2020.12</h5>
-        <p>Let the Gummy Bear Bring You Happiness" Happy Haptics is a motion graphic about the work-life and happiness. The video narrates a story of the Gummy Bears appear in a person's work life. While the keys on the keyboard are something tangible, bouncy, it is the representation of endless office hours and tedious productivity. On the other hand, the gummy bears are pleasantly chewing, although slightly glutinous, the sweet taste can always remind us of joyfulness.</p>
+        <p class="intro"></p>
+        <script>
+            var i = 0 
+            var text = "Let the Gummy Bear bring you happiness! Happy Haptics is a motion graphic about the work-life and happiness. The video narrates a story of the Gummy Bears appear in a person's work life. While the keys on the keyboard are something tangible, bouncy, it is the representation of endless office hours and tedious productivity. On the other hand, the gummy bears are pleasantly chewing, the sweet taste can always remind us of joyfulness."; 
+            function typeWriter() {
+                if (i < text.length) {
+                    document.getElementsByClassName("intro")[0].innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 60);
+                    }
+                }
+            
+            window.onload = typeWriter()
+            
+        </script>
         <li>
-            <a class="Watch Now" style=" color: black; text-decoration: underline; font-size: 10pt; " target="_blank" href="">Watch Now (Coming Up 12.11)  <img src="../Assets/arrow2.png" height="10px"</a>
+            <a class="Watch Now" style=" color: black; text-decoration: underline; font-size: 10pt; " target="_blank" href="">Watch Now (Coming Up 12.11)  <img src="../Assets/arrow2.png" height="10px"></a>
         </li>
-        <li> <a class="allproj" style="color: black; text-decoration: underline; font-size: 10pt; " href="visualDesign/mpsb.html">More About The Idea Development <img src="../Assets/arrow2.png" height="10px" alt=""></a></li>
         <style>
             li{
                 list-style-type: none;
@@ -82,16 +95,26 @@
     </div>
     <div class="d" style="max-width: 400px; height: 200px; margin: 0 auto; position: relative; background-image: url(happy/5.GIF); background-size: contain;background-repeat: no-repeat; background-position: top;">
     </div>
-    <div>
-        <h5>With</h5>
-        <h3 style="margin: 0;">Yonsei University IID MMXX Senior Exhibition</h3>
-        <br>
-        <img src="../Assets/ex.jpg" height="300px" alt="">
 
+    <div>
+        <h4>A SOCIAL ISSUE</h4>
+        <p>Technology as a double-edged sword, although highly celebrated by modernity, fastevolving digitalization also produces an almost equal amount of interruption to our life. One of the most apparent aspects of digitalization is the increase of screen-time, endless notification flows, further, some may have fallen the indulgence with apps and games. Tons of information has made available online, causing the delusion of “More is good,” meanwhile less inter-personal interaction is appreciated while typing on a small piece of glass is much more trendy, more and more people started to develop frequent anxiety and reoccurring stresses under the side effects of fast digitalization. To reflect on such a social phenomenon, “Happy Haptics” is an exhibitory motion graphic that is designed to refresh our emotions and memories toward worklife and joyfulness. The project narrates the story of the Gummy Bears, which is a small, soft candy that many people are familiar with. Not only the candy has delightful tastes but also when speaking of Gummy Bears, it is a metaphoric term about joy and happiness. The texture of the Gummy Bear is very chewy and sticky, therefore when it is already embedded within many’s memory, from
+
+            images that one can infer its joyful tangibility. The keyboard, on the other hand often associated with productivity, which symbolically captures the essence of modern work life, where anxiety and stress are often originated.</p>
+        
+    <li> <a class="allproj" style="color: black; text-decoration: underline; font-size: 10pt; " href="visualDesign/mpsb.html">More About Idea Development<img src="../Assets/arrow2.png" height="10px" alt=""></a></li>
+    
     </div>
 
-
-
+    <div class="theEnd">
+        <h2 style="margin:0;">The end.</h2>
+    </div>
+    <div class="next">
+        <img src="../uxDesign/care/3.png" height="200px" alt="careapp">
+        <a style="color: black;" href="../uxDesign/care.html"><h3>Care <br> <i>Animal Adaption Service Design</i></h3></a>
+        <a style="font-size: 14pt; font-family: 'Caveat', cursive;" href="../uxDesign/care.html">Learn More ></a>
+    </div>
+        
         <footer>
 
             <p>©2020 Johnny Liu, All rights reserved</p>
