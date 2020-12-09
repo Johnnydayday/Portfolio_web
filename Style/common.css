@@ -21,7 +21,9 @@ html{
         display: flex;
          justify-content: space-between;
     }
+
 }
+
 
 body {
     max-width: 750px;
@@ -132,9 +134,3 @@ footer p{
     padding: 0;
 }
 
-.contents a {
-    color: gray;
-}
-.contents a:hover{
-    color: black;
-}
