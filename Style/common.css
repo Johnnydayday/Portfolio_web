@@ -40,10 +40,11 @@ nav h5{
 }
 a {
     text-decoration: none;
+    color: gray;
 }
 
 a:hover{
-    color: gray;
+    color: black;
 }
 
 li {
@@ -114,7 +115,6 @@ i {
 
 footer {
     padding: 10px;
-    color: gray;
     text-align: center;
     margin: 0 0 0 0;
 }
@@ -126,7 +126,7 @@ footer p{
 }
 
 footer a {
-    color: gray;
+    color: black;
 }
 
 .theEnd{
