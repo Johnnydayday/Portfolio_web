@@ -1,22 +1,12 @@
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:monospace;
     margin: 0 auto;
 }
 
-.banner{
-    display: none;
-}
+
+
 
 @media screen and (min-width: 730px) {
-    .banner {
-    display: block;
-    visibility: visible;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(226, 226, 226);
-    background-position: center;
-    }   
-
     .contents{
         display: flex;
          justify-content: space-between;
@@ -36,7 +26,8 @@ nav {
 }
 
 nav h5{
-    font-family: 'Rock Salt', cursive;
+    /* font-family: 'Rock Salt', cursive; */
+    color: darkorange;
 }
 a {
     text-decoration: none;
@@ -130,8 +121,9 @@ footer a {
 }
 
 .theEnd{
+    display:  none;
     text-align: center; 
-    font-family: 'Caveat', cursive; 
+    /* font-family: 'Caveat', cursive;  */
     padding: 0;
 }
 
