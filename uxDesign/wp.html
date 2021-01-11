@@ -9,17 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-<body> 
-    <nav style="margin-top: 0; padding-top: 5px; color: white;background-color: black;">
+<body style="max-width: 100%;" > 
+    <nav style="margin:0 auto; padding-top: 5px; color: white;background-color: black;">
+    <nav style="margin:0 auto; padding-top: 5px; color: white;background-color: black; max-width: 750px;">
         <h5>Johnny Liu</h5>
         <ul style="list-style: none; padding: 0; margin: 0;">
-            <li style="width: 100px; margin-right: 20px;">
+            <li style="width: 100px;">
                 <a  style=" color:white; text-decoration: none;" href="../index.html"><h1>Portfolio</h1></a>
             </li>
             <li style="width: 100px;">
                 <a style="color: gray; text-decoration: none;" href="../resume.html">Resume</a> 
             </li>
         </ul>
+    </nav>
     </nav>
 
 
@@ -48,7 +50,7 @@
         })
     </script>
 
-    <div style="margin-top: 250;">
+    <div style="max-width: 750px; margin: 250 auto 0 auto;">
         <h4>Highlights</h4>
         <p>
         - Helping users understand weather, decoding the meaning of weather digits.
@@ -58,30 +60,32 @@
         - Utility services meets social media, bring local business new opportuntinies.
         </p>
     </div>
-    <div class="PXV" style=" padding: 0; width: 375px; height: 500px; margin:0 auto;  background-image: url(wp/3.png); background-size:cover; background-repeat: no-repeat; "></div>
-    <i>Mock up Designs</i>
-    <br>
+ 
 
  
 
-    <div style="padding-top: 0;">
-        <h4 style="margin-top: 0;">DESIGN PROBLEM</h4>
+    <div style="padding-top: 0; max-width: 750px; margin: 0 auto; ">
+        <img src="wp/3.1.png" width="100%" alt="">
+        <h4 style="margin-top: 0; display: block;">DESIGN PROBLEM</h4>
         <p>Weather is one of the most frequently spoken topics in our day to day life, it affects our plan, wear, well-being, and our mood. Although the weather forecast is showing almost everywhere. Most of the forecast presentations were not clearly informative. That the forecast has shown little effects in rising people’s actions but a little attention. For those who are living in urban areas, the struggle is rather sensational. Because many city residents do not have much knowledge of scientific weather data, many may have no idea about “Wind, s5 Mph,” or “Pressure, 30.17 inHg,” or “Humidity, 32%.”</p>
     </div>
 
-    <div class="PXH" style=" padding: 0; width: 100%; height: 300px; margin:0 auto;  background-image: url(wp/4.jpg); background-size:cover; background-repeat: no-repeat; "></div>
+    <div class="PXH" style=" padding: 0; width: 100%; height: 450px; margin:0 auto;  background-image: url(wp/4.jpg); background-size:cover; background-repeat: no-repeat; "></div>
     <i>Design Process</i>
 
-    <div>
+    <div style="max-width: 750px; margin: 0 auto;">
         <h4>DESIGN GOAL</h4>
         <p>WeatherPlus is designed for the city residents who care about weather as well as they care about their, clothing, well-being and daily activities. It is to help these groups of people to have a better understanding of weather in terms of living a more comfortable and enjoyable life. The primary goal is that the visual elements should be intuitive; we think it is essential to give visually understandable information and use appropriate text implications if needed. Second, it is vital to have consistent design experiences for users, since WeatherPlus targeted on a board population, it shall always perform the same expected usefulness, usability, and user sensation. Last but not least, that the design should bring positive social impact, WeatherPlus aimed at not only becoming a helpful utility service but also become a loved community where users can produce inputs and outputs, share and learn.</p>
     </div>
 
-    <div class="PXH" style=" padding: 0; width: 100%; height: 300px; margin:0 auto;  background-image: url(wp/5.jpg); background-size:cover; background-repeat: no-repeat; "></div>
-    <div class="PXH" style=" padding: 0; width: 100%; height: 300px; margin:0 auto;  background-image: url(wp/6.jpg); background-size:cover; background-repeat: no-repeat; "></div>
-    <div class="PXH" style=" padding: 0; width: 100%; height: 300px; margin:0 auto;  background-image: url(wp/7.jpg); background-size:cover; background-repeat: no-repeat; "></div>
-
-    <i>Project Research Paper</i>
+    <div style="max-width: 750px; margin: 0 auto; padding:0;">
+        <div class="PXH" style=" padding: 0; width: 100%; height: 300px; margin:0 auto;  background-image: url(wp/5.jpg); background-size:cover; background-repeat: no-repeat; "></div>
+        <div class="PXH" style=" padding: 0; width: 100%; height: 300px; margin:0 auto;  background-image: url(wp/6.jpg); background-size:cover; background-repeat: no-repeat; "></div>
+        <div class="PXH" style=" padding: 0; width: 100%; height: 300px; margin:0 auto;  background-image: url(wp/7.jpg); background-size:cover; background-repeat: no-repeat; "></div>    
+        <i style="padding:0; margin:0;">Project Research Paper</i>
+    </div>
+ 
+   
     <script>
         $(document).ready(function(){
             $(window).scroll(function(){
@@ -97,10 +101,29 @@
             })
         })
     </script>
-    <br>
-    <br>
-    <br>
-    <br>
+
+    <div>
+        <h4>Full Documentation</h4>
+        <br>
+        <section class="fulldoc" style="display: grid; grid-template-columns: repeat(6, 310px); overflow: scroll; height: fit-content;;">
+            <style>
+                .fulldoc img{
+                    box-shadow: 0px 1px 5px gray;
+                    margin: 2px auto;
+                }
+            </style>
+            <img src="../visualDesign/calendar/doc/20210111pic.jpg" width="300px" alt="">
+            <img src="wp/doc/20210111pic67.jpg" width="300px" alt="">
+            <img src="wp/doc/20210111pic68.jpg" width="300px" alt="">
+            <img src="wp/doc/20210111pic69.jpg" width="300px" alt="">
+            <img src="wp/doc/20210111pic70.jpg" width="300px" alt="">
+            <img src="../visualDesign/calendar/doc/20210111pic85.jpg" width="300px" alt="">
+
+        </section>
+        <i>Scroll horizontally to View More</i>
+
+    </div>
+
     <div class="theEnd">
         <h2 style="margin:0;">The end.</h2>
     </div>
